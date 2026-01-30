@@ -15,10 +15,10 @@ public class BasicInput {
         userDouble = scnr.nextDouble();
         System.out.println("Enter Char:");
         userChar = scnr.next().charAt(0);
-        System.out.println("Enter String:")
-        userString = scnr.nextString();
+        System.out.println("Enter String:");
+        userString = scnr.next();
 
-        system.out.printf("%f %f %f %fn", userInt, userDouble, userChar, userString)
+        System.out.printf("%d %f %c %s%n", userInt, userDouble, userChar, userString);
 
         // TODO (1): Finish reading other items into variables, then output the four values on a single line separated by a space
 
