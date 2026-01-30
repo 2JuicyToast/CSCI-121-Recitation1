@@ -13,7 +13,7 @@ public class BasicInput {
         userInt = scnr.nextInt();
         System.out.println("Enter double:");
         userDouble = scnr.nextDouble();
-        System.out.println("Enter char:");
+        System.out.println("Enter character:");
         userChar = scnr.next().charAt(0);
         System.out.println("Enter string:");
         userString = scnr.next();
