@@ -16,7 +16,7 @@ public class BasicInput {
         System.out.println("Enter Char:");
         userChar = scnr.next().charAt(0);
         System.out.println("Enter String:")
-        userString = scnr.nextString;
+        userString = scnr.nextString();
 
         system.out.printf("%f %f %f %fn", userInt, userDouble, userChar, userString)
 
